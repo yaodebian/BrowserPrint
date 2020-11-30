@@ -1,0 +1,50 @@
+{
+  "name": "browser_print",
+  "version": "0.0.1",
+  "description": "a native javascript script for printing target dom block.",
+  "main": "dist/print.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint --fix ./",
+    "serve": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --mode=production --config ./build/webpack.config.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "keywords": [
+    "javascript",
+    "browser",
+    "print"
+  ],
+  "author": "yaodebian",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-remove-debugger": "^6.9.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "husky": "^4.3.0",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
