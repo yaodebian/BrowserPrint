@@ -8,7 +8,7 @@ const Print = function (dom, options) {
     printEntity: 'print-entity', // This is a className. You can set it on any tag which you want to change its postion to static.
     originalLayout: false, // Whether you want to keep original layout.
     themeStyle: '', // Here you can set background css value.
-    additionalStyle: '' // additional style you want to add. It can be normal css string or a relative url of a css/sass/less file.
+    additionalStyle: '' // additional style you want to add. It can be normal css string or a relative url of a css file.
   }, options)
 
   // Init the dom which you want to print.
