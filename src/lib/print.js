@@ -12,7 +12,9 @@ const Print = function (dom, options) {
   }, options)
 
   // Init the dom which you want to print.
-  if ((typeof dom) === 'string') {
+  if (!dom) {
+    throw new Error('param "dom" is required')
+  } else if ((typeof dom) === 'string') {
     this.dom = document.querySelector(dom)
   } else {
     this.dom = this.isDOM(dom) ? dom : dom.$el
