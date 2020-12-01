@@ -23,6 +23,7 @@
     "print"
   ],
   "author": "yaodebian",
+  "repository": "https://github.com/yaodebian/BrowserPrint.git",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.9",
