@@ -9,7 +9,7 @@ BrowserPrint 是一个原生的 javascript 脚本库，用于打印 HTML 页面�
 如果没有安装 nodejs，你可以点击这里进入官方页面进行下载： [Node.js][0] 。接着，我们便可以下载相应的 npm package。
 
 ```
-npm i browser-print
+npm i browser-print-script
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ npm i browser-print
 **这是一个 demo:**
 
 ```
-import Print from 'browser-print'
+import Print from 'browser-print-script'
 
 // get print button
 const printBtn = document.querySelector('#printBtn')

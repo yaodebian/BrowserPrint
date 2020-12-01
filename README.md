@@ -9,7 +9,7 @@ chinese doc: [中文文档](./README.zh.md)
 First, install [Node.js][0]. Then:
 
 ```
-npm i browser-print
+npm i browser-print-script
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i browser-print
 **demo:**
 
 ```
-import Print from 'browser-print'
+import Print from 'browser-print-script'
 
 // get print button
 const printBtn = document.querySelector('#printBtn')
