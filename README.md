@@ -2,6 +2,8 @@
 
 A native javascript script for printing target dom block.
 
+chinese doc: [中文文档](./README.zh.md)
+
 ## Installation
 
 First, install [Node.js][0]. Then:
