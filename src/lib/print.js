@@ -76,7 +76,7 @@ Print.prototype = {
     <style>
       /* add class style which 'options.noPrint' set */
       ${this.options.noPrint ? `.${this.options.noPrint}` : '.no-print'} {
-        display:none;
+        display: none !important;
       }
       /* add class style which 'options.noScroll' set */
       ${this.options.noScroll ? `.${this.options.noScroll}` : '.no-scroll'} {
