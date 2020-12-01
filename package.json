@@ -1,5 +1,5 @@
 {
-  "name": "browser_print",
+  "name": "browser-print",
   "version": "0.0.1",
   "description": "a native javascript script for printing target dom block.",
   "main": "dist/print.js",
