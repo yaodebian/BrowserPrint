@@ -8,8 +8,12 @@ module.exports = {
     index: './src/view/index.js'
   },
   output: {
+    library: 'printJS',
+    libraryTarget: 'umd',
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].js' // customize the filenames of generated bundle file
+    filename: '[name].js', // customize the filenames of generated bundle file
+    sourceMapFilename: '[name].map', // customize the filenames of generated Source Maps
+    libraryExport: 'default'
   },
   plugins: [
     new HtmlWebpackPlugin({
