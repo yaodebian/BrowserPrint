@@ -74,6 +74,10 @@ printBtn.addEventListener('click', function () {
 
   You can set attributes above to cover default value.
 
+**debug**
+
+You can run `npm run serve` to open a browser page to debug code.
+
 ## License
 
 MIT

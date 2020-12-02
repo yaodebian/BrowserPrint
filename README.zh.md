@@ -74,6 +74,10 @@ printBtn.addEventListener('click', function () {
 
   调用时通过对以上的配置进行配置可以覆盖我们默认的配置。
 
+**调试**
+
+你可以执行 `npm run serve`，它会开启一个调试页面用来调试代码。
+
 ## License
 
 MIT
